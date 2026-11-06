@@ -1,0 +1,28 @@
+
+[
+  {
+    "p_relative_url": "karthikpb13/Data_engineering_project1_data/refs/heads/main/Data/category.csv",
+    "p_sink_folder": "category",
+    "p_sink_filename": "category.csv"
+  },
+  {
+    "p_relative_url": "karthikpb13/Data_engineering_project1_data/refs/heads/main/Data/products.csv",
+    "p_sink_folder": "products",
+    "p_sink_filename": "products.csv"
+  },
+  {
+    "p_relative_url": "karthikpb13/Data_engineering_project1_data/refs/heads/main/Data/sales.csv",
+    "p_sink_folder": "sales",
+    "p_sink_filename": "sales.csv"
+  },
+  {
+    "p_relative_url": "karthikpb13/Data_engineering_project1_data/refs/heads/main/Data/stores.csv",
+    "p_sink_folder": "stores",
+    "p_sink_filename": "stores.csv"
+  },
+  {
+    "p_relative_url": "karthikpb13/Data_engineering_project1_data/refs/heads/main/Data/warranty.csv",
+    "p_sink_folder": "warranty",
+    "p_sink_filename": "warranty.csv"
+  }
+]
