@@ -50,7 +50,7 @@ Source data is not always analytics-ready.
 
 ## How We Will Do It
 
-### Architecture of the Project
+## Architecture of the Project
 
 ```mermaid
 flowchart LR
@@ -66,14 +66,14 @@ flowchart LR
     end
 
     subgraph LAKE["Azure Data Lake Storage Gen2"]
-        H["Bronze Layer<br/>Raw Data"]
-        I["Silver Layer<br/>Cleansed & Standardized Data"]
-        J["Gold Layer<br/>Business Transformed Data"]
+        H["Bronze Layer - Raw Data"]
+        I["Silver Layer - Cleansed & Standardized Data"]
+        J["Gold Layer - Business Transformed Data"]
     end
 
-    K["Azure Data Factory<br/>ADF"]
-    L["Databricks<br/>Data Transformation"]
-    M[("Snowflake<br/>Data Warehouse")]
+    K["Azure Data Factory - ADF"]
+    L["Databricks - Data Transformation"]
+    M[("Snowflake - Data Warehouse")]
 
     A --> K
     B --> K
@@ -90,13 +90,6 @@ flowchart LR
     L --> J
     J --> K
     K --> M
-
-    style H fill:#CD7F32,color:#fff,stroke:#8B4513
-    style I fill:#A0A0A0,color:#fff,stroke:#555
-    style J fill:#D4AF37,color:#000,stroke:#997A00
-    style M fill:#29B5E8,color:#fff,stroke:#147A9C
-    style L fill:#E36C09,color:#fff,stroke:#A34B00
-    style K fill:#2874A6,color:#fff,stroke:#154360
 ```
 
 ### Data Flow
