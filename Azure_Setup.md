@@ -156,12 +156,13 @@ We will use Databricks for:
 ### Steps to Create an Azure Databricks Workspace
 
 1. Navigate to the Azure Portal.
+2. click on create resource
 2. Search for **Azure Databricks**.
 3. Click **Create**.
 4. Select the previously created Resource Group.
 5. Provide a Workspace name.
 
-   Example: `adb-retail-dataengineering`
+   Example: `kpb-de-prj1rd-adb-acc`
 
 6. Select the required Azure Region.
 7. Select the appropriate Pricing Tier based on project requirements.
